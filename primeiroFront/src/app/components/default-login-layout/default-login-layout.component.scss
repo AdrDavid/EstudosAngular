@@ -1,0 +1,40 @@
+@import "../../../styles/variables.scss";
+
+.img1{
+  width: 70px;
+  height: 40px;
+}
+.img2{
+  width: 300px;
+  height: 300px;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-items: center;
+
+  section{
+
+    height: 100%;
+    flex-firection: collumn;
+    align-items: center;
+    justify-content: center;
+  }
+  .main-section{
+    gap: 8px;
+    flex-grow: 1;
+    background-color: $grey-bg;
+  }
+
+  .form-section{
+    flex-grow: 0.3;
+
+    h2{
+      font-size: 20px;
+      font-weight: bold;
+    }
+  }
+
+}
